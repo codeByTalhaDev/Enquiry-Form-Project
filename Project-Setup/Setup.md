@@ -45,3 +45,14 @@ npx flowbite-react@latest init
 
 npm install flowbite-react@latest flowbite@latest
 ```
+
+
+```md
+# Deployment
+
+# The Rule of Thumb
+# Stage	                      MongoDB Type	         Notes
+Development (local)	        MongoDB Compass	     Works only on your machine
+Deployment (online)	        MongoDB Atlas	       Must be cloud, your server cannot access local DB
+Someone else downloading	  Local or Cloud	     They choose; your code only gives the models & connection variable
+```
